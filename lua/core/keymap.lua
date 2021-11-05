@@ -24,3 +24,8 @@ map('n', '<A-w>'    , '<C-w>k'  , noresilent)
 map('n', '<A-r>'    , '<C-w>j'  , noresilent)
 map('n', '<A-a>'    , '<C-w>h'  , noresilent)
 map('n', '<A-s>'    , '<C-w>l'  , noresilent)
+
+map('n', '<S-y>', '"+y', noresilent)
+map('n', '<S-p>', '"+p', noresilent)
+map('v', '<S-y>', '"+y', noresilent)
+map('v', '<S-p>', '"+p', noresilent)
