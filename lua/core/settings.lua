@@ -1,0 +1,62 @@
+local o = vim.o
+local wo = vim.wo
+local bo = vim.bo
+
+vim.cmd[[colorscheme tokyonight]]
+
+o.completeopt = "menu,menuone,noinsert"
+o.foldmethod = "indent"
+o.termguicolors = true
+o.cmdheight = 1
+o.directory = "~/.tmp"
+o.swapfile = false
+o.undodir = ""
+o.smartcase = true
+o.laststatus = 2
+o.hlsearch = true
+o.incsearch = true
+o.ignorecase = true
+o.diffopt = "filler"
+o.hidden = true
+o.magic = true
+o.showcmd = false
+o.writebackup = false
+o.history = 10000
+o.ruler = true
+o.scrolloff = 0
+o.sidescrolloff = 1
+o.splitbelow = true
+o.smartcase = true
+o.smarttab = true
+o.pumheight = 5
+o.pumblend = 0
+o.emoji = true
+o.redrawtime = 10000
+o.lazyredraw = true
+o.timeout = true
+o.timeoutlen = 400
+o.updatetime = 500
+o.showmatch = false
+o.showtabline = 1
+o.matchtime = 0
+o.ttimeout = false
+o.ttimeoutlen = 5
+o.wrapscan = true
+
+wo.number = true
+wo.relativenumber = true
+wo.wrap = false
+wo.numberwidth = 1
+wo.foldenable = false
+wo.foldnestmax = 3
+wo.foldlevel = 0
+wo.list = true
+wo.cursorline = true
+
+bo.autoread = true
+bo.swapfile = false
+bo.shiftwidth = 4
+bo.softtabstop = 4
+bo.tabstop = 4
+bo.expandtab = true
+bo.spelllang = "en_us"
